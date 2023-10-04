@@ -15,7 +15,7 @@
 		return "";
 	}
 	function redr() {
-		window.location.href = "shortcuts://run-shortcut?name=testing&input=text&text=hello";
+		window.location.href = "shortcuts://run-shortcut?name=testing&input=text&text=".concat(qs("code"));
 	}
 </script>
 
